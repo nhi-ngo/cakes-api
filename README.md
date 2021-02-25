@@ -1,7 +1,7 @@
 # **Cakes API**
 
 Hello everyone! Welcome to my own mock version of cakes API!
-`It's cake o'clock!` Let's get a random cake recipe and start baking it.👩‍🍳
+`It's cake o'clock!` Let's get a random cake recipe and start baking.👩‍🍳
 
 ## Client
 
