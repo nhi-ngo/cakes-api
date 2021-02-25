@@ -1,15 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 body {
-  background-color: #f1faee;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background-image: url('./background1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-  justify-content: left;
-  padding: 2rem;
-  text-align: center;
-  width: 90%;
-  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.05rem;
+  padding: 1rem 0;
+  width: 80%;
 }
 
 .title {
-  text-decoration: underline #e63946;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3rem;
+  text-decoration: underline wavy red;
+  text-align: center;
+}
+
+.endPointsHeader {
+  text-decoration: underline;
+}
+
+.sectionContainer {
+  background-color: rgba(46, 49, 49, 1);
+  opacity: 0.9;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.sectionRow {
+  background-color: #c3d9ec;
+  padding: 1rem 0;
+}
+
+span {
+  background-color: blue;
+  padding: 1rem;
+}
+
+.sectionLink {
+  margin-left: 20px;
+  color: black;
 }
